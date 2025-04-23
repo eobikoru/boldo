@@ -26,10 +26,10 @@ export default function Home() {
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
             <BoldoLogo className="h-8 w-auto opacity-30" />
-            <PrestoLogo className="h-8 w-auto opacity-30" />
-            <BoldoLogo className="h-8 w-auto opacity-30" />
-            <PrestoLogo className="h-8 w-auto opacity-30" />
-            <BoldoLogo className="h-8 w-auto opacity-30" />
+            <PrestoLogo className="h-8 w-auto opacity-60" />
+            <BoldoLogo className="h-8 w-auto opacity-75" />
+            <PrestoLogo className="h-8 w-auto opacity-60" />
+            <BoldoLogo className="h-8 w-auto opacity-60" />
             <PrestoLogo className="h-8 w-auto opacity-30" />
           </div>
         </div>

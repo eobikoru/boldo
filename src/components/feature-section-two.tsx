@@ -3,7 +3,7 @@ import { Eye, Lightbulb, Zap } from "lucide-react"
 
 export function FeatureSectionTwo() {
   return (
-    <section className="py-20  bg-white">
+    <section className="py-28  bg-white">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Left side - Text and features */}
