@@ -7,8 +7,11 @@ export function CTASection() {
             <div className="absolute top-0 right-0 w-1/3 h-full bg-[#1C3654] rounded-l-full opacity-50"></div>
   
             <div className="relative z-10 max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl font-light text-white mb-10 leading-tight">
-                An enterprise template to ramp up your company website
+              <h2 className="hidden md:flex text-4xl md:text-5xl md:flex-col font-light text-white mb-10 leading-tight">
+                An enterprise template to ramp up <div className="md:my-4">your company website</div> 
+              </h2>
+              <h2 className=" md:hidden  text-4xl md:text-5xl font-light text-white mb-10 leading-tight">
+                An enterprise template to ramp up div your company website
               </h2>
   
               <div className="flex flex-col md:flex-row gap-4 justify-center max-w-xl mx-auto">

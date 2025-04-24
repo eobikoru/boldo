@@ -93,9 +93,13 @@ export function ServicesSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 md:mb-16">
           <p className="text-gray-500 text-lg mb-4">Our Services</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-light text-gray-900 max-w-4xl mx-auto">
+          <h2 className="hidden md:flex md:flex-col text-3xl md:text-4xl lg:text-5xl leading-tight font-light text-gray-900 max-w-4xl mx-auto">
             Handshake infographic mass market
             <span className="block mt-2 md:mt-4">crowdfunding iteration.</span>
+          </h2>
+          <h2 className="text-3xl md:hidden md:text-4xl lg:text-5xl leading-tight font-light text-gray-900 max-w-4xl mx-auto">
+            Handshake infographic mass market
+           crowdfunding iteration.
           </h2>
         </div>
 

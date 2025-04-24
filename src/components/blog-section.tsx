@@ -6,7 +6,10 @@ export function BlogSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-gray-500 mb-4">Our Blog</p>
-          <h2 className="text-2xl md:text-5xl font-light text-black max-w-4xl mx-auto">
+          <h2 className="hidden md:flex md:flex-col text-2xl md:text-5xl font-light text-black max-w-4xl mx-auto">
+            Value proposition accelerator product <div className="my-4">management venture</div> 
+          </h2>
+          <h2 className=" md:hidden text-2xl md:text-5xl font-light text-black max-w-4xl mx-auto">
             Value proposition accelerator product management venture
           </h2>
         </div>

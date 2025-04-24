@@ -9,8 +9,11 @@ export function TestimonialsSection() {
           <div className="flex justify-between">
 
     
-          <h2 className="text-4xl md:text-5xl font-extralight mb-16 max-w-3xl">
+          <h2 className="hidden md:flex md:flex-col  text-4xl md:text-5xl font-extralight mb-16 max-w-3xl">
             An enterprise template to ramp <div className="my-4">up your company website</div> 
+          </h2>
+          <h2 className="text-4xl md:text-5xl md:hidden font-extralight mb-16 max-w-3xl">
+            An enterprise template to ramp up your company website
           </h2>
           <div className="flex justify-end mt-8 gap-4">
               <button className="w-14 h-14 rounded-full bg-white flex items-center justify-center">
