@@ -10,7 +10,7 @@ export function TestimonialsSection() {
 
     
           <h2 className="text-4xl md:text-5xl font-extralight mb-16 max-w-3xl">
-            An enterprise template to ramp up your company website
+            An enterprise template to ramp <div className="my-4">up your company website</div> 
           </h2>
           <div className="flex justify-end mt-8 gap-4">
               <button className="w-14 h-14 rounded-full bg-white flex items-center justify-center">
@@ -90,8 +90,6 @@ export function TestimonialsSection() {
                 </div>
               </div>
             </div>
-
-            {/* Navigation Arrows */}
           
           </div>
         </div>
