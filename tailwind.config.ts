@@ -98,6 +98,24 @@ const config = {
             transform: "translateY(0)",
           },
         },
+        "fade-in-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-50px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "float": {
+          "0%, 100%": {
+            transform: "translate(-50%, 25%)",
+          },
+          "50%": {
+            transform: "translate(-50%, 20%)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -105,6 +123,8 @@ const config = {
         "fade-in-down": "fade-in-down 0.7s ease-out forwards",
         "fade-in-right": "fade-in-right 0.8s ease-out forwards",
         "fade-in-up": "fade-in-up 0.7s ease-out forwards",
+        "fade-in-left": "fade-in-left 0.8s ease-out forwards",
+        "float": "float 6s ease-in-out infinite",
       },
     },
   },
